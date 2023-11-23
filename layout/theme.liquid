@@ -348,5 +348,19 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+{% if template.name == "index" %}
+<style>
+   .custom-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: transparent;
+
+}
+</style>
+{% endif %}
+    
   </body>
 </html>
