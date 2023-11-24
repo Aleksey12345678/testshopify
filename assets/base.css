@@ -2466,8 +2466,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__heading-logo {
-  height: auto;
-  max-width: 100%;
+ width: 145.481px;
+height: 55px;
+flex-shrink: 0;
 }
 
 .header__heading-logo-wrapper {
