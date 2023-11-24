@@ -2466,15 +2466,14 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__heading-logo {
- width: 145.481px;
-height: 55px;
-flex-shrink: 0;
+  height: auto;
+  max-width: 100%;
 }
 
 .header__heading-logo-wrapper {
-  width: 145.481px;
-height: 55px;
-flex-shrink: 0;
+  width: 100%;
+  display: inline-block;
+  transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 
 @media screen and (max-width: 989px) {
