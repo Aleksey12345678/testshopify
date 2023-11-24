@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner23443",
+            "heading": "Marvel Power Group",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Marvel Power Group is a woman-owned, ESG-focused transaction broker and commercial advisor. We offer services to clients in power, gas, water, industrial and transportation sectors.",
             "text_style": "body"
           }
         },
@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/robert-bye-R-WtV-QyVnY-unsplash.png",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
